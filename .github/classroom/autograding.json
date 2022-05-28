@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Random Walks of Bricks",
+      "setup": "",
+      "run": "gradle test --tests 'com.zetcode.TetrisTest.testRandomMove'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 55
+    },
+    {
+      "name": "Game Over",
+      "setup": "",
+      "run": "gradle test --tests 'com.zetcode.TetrisTest.testGameOver'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Square Shapes",
+      "setup": "",
+      "run": "gradle test --tests 'com.zetcode.TetrisTest.testSquareShapes'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Line Shapes",
+      "setup": "",
+      "run": "gradle test --tests 'com.zetcode.TetrisTest.testLineShapes'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    }
+  ]
+}
